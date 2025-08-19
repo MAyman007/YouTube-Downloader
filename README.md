@@ -130,8 +130,8 @@ and install
 <li>Install the following packages:
 
 <ul>
-<li> For Debian-Based distros (Debian, Ubuntu, Mint, etc)
-
+<li> Debian-Based distros (Debian, Ubuntu, Mint, etc.):
+  
 ```
 sudo apt update
 sudo apt install -y python3 python3-pip python3-tk git ffmpeg
@@ -185,3 +185,4 @@ python3 main.py
 ## Support
 
 Have questions, feedback, or issues? open an [issue](https://github.com/MAyman007/YouTube-Downloader/issues)
+
