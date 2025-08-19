@@ -8,7 +8,7 @@
 
 > **Simple & modern YouTube Downloader to download videos, playlists, subtitles and search queries.**
 
-<a href='https://github.com/mayman007/YouTube-Downloader/releases'><img alt='Get it on GitHub' src='https://i.imgur.com/MQgAiVO.png' width="250"/></a><br>
+<a href='https://github.com/MAyman007/YouTube-Downloader/releases'><img alt='Get it on GitHub' src='https://i.imgur.com/MQgAiVO.png' width="250"/></a><br>
 </div>
 
 ## Features
@@ -80,20 +80,26 @@
 
 ## Installation Guide
 ### **For Windows:**
-#### **The Easy Way:**
-Download the exe from the latest [release](https://github.com/mayman007/YouTube-Downloader/releases).
+#### **Quick Install (Recommended):**
+Download the exe for windows from the latest [release](https://github.com/MAyman007/YouTube-Downloader/releases).
+
+---
 
 #### **Build From Source:**
 
 <ol>
-<li>Install <a href = "https://www.python.org/downloads/">python</a> and <a href = "https://git-scm.com/downloads">git</a> and add them to the path</li>
+<li>Install <a href = "https://www.python.org/downloads/">python</a> and <a href = "https://git-scm.com/downloads">git</a>, then make sure both are added to your <b>PATH</b>.</li>
 
-<li>Download <a href = "https://www.ffmpeg.org/download.html#build-windows">ffmpeg</a> and add it to the path or put ffmpeg.exe in the same folder as the script</li>
+<li>Download <a href="https://www.ffmpeg.org/download.html#build-windows">FFmpeg</a> and either:
+<ul>
+  <li>Add it to your <b>PATH</b>, or</li>
+  <li>Place <code>ffmpeg.exe</code> in the same folder as the script.</li>
+</ul></li>
 
 <li>Git-clone this repo & change directory</li>
 
 ```
-git clone https://github.com/Shinobi7k/YouTube-Downloader.git
+git clone https://github.com/MAyman007/YouTube-Downloader.git
 
 cd YouTube-Downloader
 ```
@@ -110,8 +116,14 @@ py main.py
 </ol>
 
 ### **For Linux:**
-#### **The Easy Way:**
-Download the binary for linux from the latest [release](https://github.com/mayman007/YouTube-Downloader/releases) and install [ffmpeg](https://www.ffmpeg.org/download.html#build-linux) (`sudo apt install ffmpeg` if you're on a Debian-Based distro)
+#### **Quick Install (Recommended):**
+Download the prebuilt binary for Linux from the latest 
+<a href="https://github.com/MAyman007/YouTube-Downloader/releases">release</a> 
+and install 
+<a href="https://www.ffmpeg.org/download.html#build-linux">ffmpeg</a> 
+(<code>sudo apt install ffmpeg</code> if you're on a Debian-Based distro).
+
+---
 
 #### **Build From Source:**
 <ol>
@@ -121,23 +133,35 @@ Download the binary for linux from the latest [release](https://github.com/mayma
 <li> For Debian-Based distros (Debian, Ubuntu, Mint, etc)
 
 ```
-apt install python3 -y
-apt install python3-pip -y
-sudo apt-get install python3-tk
-sudo apt install git-all
-sudo apt install ffmpeg
+sudo apt update
+sudo apt install -y python3 python3-pip python3-tk git ffmpeg
 ```
 </li>
-<li> For other distros <br>
-Figure it out yourself.
+<li> Arch-Based Distros (Arch, Manjaro, EndeavourOS, etc.):
+
+```
+sudo pacman -Syu python tk git ffmpeg
+```
+</li>
+<li> Fedora / RHEL-Based Distros:
+
+```
+sudo dnf install python3 python3-pip python3-tkinter git ffmpeg
+```
+</li>
+<li> openSUSE:
+
+```
+sudo zypper install python3 python3-pip python3-tk git-core ffmpeg
+```
 </li>
 </ul>
-
 </li>
+
 <li>Git-clone this repo & change directory
 
 ```
-git clone https://github.com/Shinobi7k/YouTube-Downloader.git
+git clone https://github.com/MAyman007/YouTube-Downloader.git
 
 cd YouTube-Downloader
 ```
@@ -160,4 +184,4 @@ python3 main.py
 
 ## Support
 
-Have questions, feedback, or issues? open an [issue](https://github.com/mayman007/YouTube-Downloader/issues)
+Have questions, feedback, or issues? open an [issue](https://github.com/MAyman007/YouTube-Downloader/issues)
