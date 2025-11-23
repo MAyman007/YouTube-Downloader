@@ -103,6 +103,12 @@ git clone https://github.com/MAyman007/YouTube-Downloader.git
 
 cd YouTube-Downloader
 ```
+<li>Create a virtual environment & activate it (optional)</li>
+
+```
+python -m venv venv
+venv\Scripts\Activate.ps1 (or venv\Scripts\activate.bat)
+```
 <li>Install modules using pip</li>
 
 ```
@@ -164,6 +170,13 @@ sudo zypper install python3 python3-pip python3-tk git-core ffmpeg
 git clone https://github.com/MAyman007/YouTube-Downloader.git
 
 cd YouTube-Downloader
+```
+</li>
+<li>Create a virtual environment & activate it
+
+```
+python -m venv venv
+source venv/bin/activate
 ```
 </li>
 <li>
